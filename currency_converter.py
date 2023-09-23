@@ -8,6 +8,7 @@ def currency_converter(amount, from_currency, to_currency, conversion_rates):
 # Define conversion rates outside the function
 conversion_rates = {
     "KSH": 1.0,
+    
     "USD": 0.0069,
     "EURO": 0.0065,
     "POUND": 0.0056
