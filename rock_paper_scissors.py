@@ -65,6 +65,7 @@ def play_game(num_rounds):
         print("It's a tie game!")
 
 if __name__ == "__main__":
+    #the above code means that it allows python code to run when the scrips is excecuted directly and not when the script is imported
     num_rounds = int(input("Enter the number of rounds (3 or 5): "))
     if num_rounds not in [3, 5]:
         print("Invalid number of rounds. Please choose 3 or 5.")
